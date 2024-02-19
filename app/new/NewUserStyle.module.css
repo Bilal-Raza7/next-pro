@@ -1,0 +1,13 @@
+.buttonStyle{
+    /* border: 2px solid #dfdfdf; */
+    padding: 13px 18px;
+    background-color: #f2f2f2;
+    margin: 5px;
+    border-radius: 9px;
+    font-weight: 550;
+    font-size: 14px;
+    transition: .3s;
+}
+.buttonStyle:hover{
+    background-color: #d2d2d2;
+}
