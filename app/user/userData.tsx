@@ -70,7 +70,7 @@ const GetuserList = async () => {
                         />
                       </figure>
                       <div className="card-body">
-                        <h2 className="card-title">{user?.name}</h2>
+                        <h2 className="card-title">{user.name}</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
                           <button className="btn btn-neutral">Buy Now</button>
