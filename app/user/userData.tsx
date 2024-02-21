@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 
 // interface User {
@@ -57,7 +58,7 @@ const GetuserList = async () => {
                   <div className="card w-72 shadow-xl glass ">
                     <Link href={`/user/${index + 1}`}>
                       <figure>
-                        <img
+                        <Image
                           src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                           alt="Shoes"
                         />
