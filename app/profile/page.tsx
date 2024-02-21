@@ -12,6 +12,7 @@ const page = () => {
             />
             <div>
               <h1 className="text-7xl font-bold">Sofia Alex</h1>
+              <p className="py-4 text-3xl font-semibold">Software Developer</p>
               <div className="stats shadow my-5">
                 <div className="stat">
                   <div className="stat-figure text-secondary">

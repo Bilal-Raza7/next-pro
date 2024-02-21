@@ -76,7 +76,7 @@ export default function Home() {
       <div className="my-5">
         <p className="text-3xl text-center my-5">Experience The Change</p>
 
-        <div className="diff aspect-[16/4]">
+        <div className="diff lg:aspect-[16/4] md:aspect-[16/6] sm:aspect-[16/8] aspect-[16/12]">
           <div className="diff-item-1">
             <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">
               DRAG ME

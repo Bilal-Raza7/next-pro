@@ -18,12 +18,7 @@ interface User {
 }
 
 const GetuserList = async () => {
-  // var res:Response;
-  // var user:User[];
   var Loading = true;
-
-  // const [userData, setUserData] = useState([]);
-  // const [Loading, setloading] = useState(true);
 
   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
   const user: User[] = await res.json();
