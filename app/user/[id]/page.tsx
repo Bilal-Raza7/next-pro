@@ -17,14 +17,14 @@ interface User {
 }
 
 const pramdata = async ({ params }: { params: { id: string } }) => {
-  // const res = await fetch(
-  //   `https://jsonplaceholder.typicode.com/users/${params.id}`
-  // );
-  // const user: User[] = await res.json();
+  const res = await fetch(
+    `https://jsonplaceholder.typicode.com/users/${params.id}`
+  );
+  const user: User[] = await res.json();
 
   return (
     <React.Fragment>
-      {/* <div>user {params.id}</div> */}
+      <div>user {params.id}</div>
       <div className="hero min-h-screen bg-base-200 min-w-fit">
         <div className="hero-content flex-col lg:flex-row">
           <img
@@ -33,11 +33,11 @@ const pramdata = async ({ params }: { params: { id: string } }) => {
           />
           <div>
             <h1 className="text-5xl font-bold">Shoes</h1>
-            {/* <p className="py-6">
+            <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
-            </p> */}
+            </p>
             <div className="flex justify-start pt-6 pb-3">
               <div className="badge p-3 bg-success mx-4">call</div>
               <p className="">0987654321</p>
